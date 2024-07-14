@@ -1,7 +1,9 @@
 # duration-util
 
 [![npm package][npm-img]][npm-url]
-[![Build Status][build-img]][build-url]
+
+<!-- [![Build Status][build-img]][build-url] -->
+
 [![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
 
