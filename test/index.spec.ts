@@ -47,7 +47,13 @@ describe("conversion methods", () => {
 		expect(duration.toMinutes()).toBe(baseMilliseconds / 60000);
 	});
 
-	// Continue with similar tests for toHours, toDays, etc.
+	it("toMinutes should return correct value", () => {
+		expect(duration.toHours()).toBe(baseMilliseconds / 3.6e6);
+	});
+
+	it("toMinutes should return correct value", () => {
+		expect(duration.toDays()).toBe(baseMilliseconds / 8.64e7);
+	});
 });
 
 describe("arithmetic methods", () => {
